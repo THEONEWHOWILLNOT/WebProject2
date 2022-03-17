@@ -1,7 +1,9 @@
 body{
-    font-family: sans-serif;
+    font-family: Verdana;
     font-size: 1em;
+    color: white;
 }
+/* header */
 header{
     
     box-sizing: 0.5em;
@@ -15,13 +17,17 @@ header{
     
 }
 .title{
-    font-size: 3.5em;
+    font-size: 2.5em;
     display: flex;
     color: white;
     
 }
 .logo{
     border-bottom: 0.2em black;
+    font-size: 1em;
+    align-content: center;
+    color: white;
+  
 }
 .myNav{
    
@@ -51,6 +57,9 @@ header{
     margin: 0.5em;
     
 }
+
+
+
  /* Footer */
  .footer {
     display: flex;
