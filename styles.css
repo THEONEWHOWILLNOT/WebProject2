@@ -8,36 +8,36 @@ header{
     display: flex;
     width: 100%; 
     background-color: #BE1622;
-    color: white;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    
 }
 .title{
-    font-size: 2em;
+    font-size: 3.5em;
     display: flex;
-    padding: 1em;
-    text-decoration: underline;
-    position: fixed;
-    left: 45%;
+    color: white;
     
 }
 .logo{
     border-bottom: 0.2em black;
 }
 .myNav{
-    float: right;
+   
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    position: fixed;
-    right: 5%;
-   
-
+    align-self: flex-end;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
 }
 .myNav a:link{
-        color: white;
+        color: rgb(255, 255, 255);
         text-decoration: none;        
 }
 .myNav a:visited{
-    color: white;
+    color: rgb(255, 247, 247);
     text-decoration: none;  
 
 }
@@ -46,40 +46,35 @@ header{
 }
 .navList{
     text-align:center;
-    font-size: 1.2em;
+    font-size: 2em;
     padding: 0.1em;
     margin: 0.5em;
     
 }
-.container {  
-    display: flex;
-    flex-wrap: row;
-}
-
-.side{
-    flex: 30%;
-    background-color: #f1f1f1;
-     padding: 1em;
-}
-.main{
-    flex: 70%;
-    background-color: #ffffff;
-     padding: 1em;
-}
-.fakeimg {
-    background-color: #aaa;
-    width: 90%;
-    padding: 1em;
-    border-radius: 1em;
-}
-
  /* Footer */
  .footer {
-    padding: 2em;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: auto;
+    padding: 1em;
     text-align: center;
     background: #34516C;
+    color: white;
     bottom: 0em;
-    height: 4em;
+    height: auto;
     width: 100%;
 
+}
+.footerTitle{
+    font-size: 1.5em;
+
+}
+.footer a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;        
+}
+.footer a:visited{
+    color: rgb(255, 247, 247);
+    text-decoration: none;  
 }
