@@ -774,16 +774,39 @@ allProducts = [
 ]
 
 
-for (i = 0; i< allHoodies.length; i++) {
-   document.getElementById("hoodies").innerHTML = allHoodies[i]
-}                           
 
+function getHoodies(){
+  for (i = 0; i< allHoodies.length; i++) {
+    ele
+  }                           
+}
 
-for (i = 0; i< allJumpers.length; i++) {
-  console.log(allJumpers[i]);
-}       
-
+function getJumpers(){
+  for (i = 0; i< allJumpers.length; i++) {
+    console.log(allJumpers[i]);
+  }       
+}
+function getTshirts(){
 for (i = 0; i< allTshirt.length; i++) {
   console.log(allTshirt[i]);
-}       
+  }       
+}
+
+let = allitems 
+
+function getAllItems(){
+  for (i = 0; i< allProducts.length; i++) {
+    allProducts[i] 
+
+    
+    }       
+}
+function printAllItems(){
+  
+
+
+}
+
+  
+
 
