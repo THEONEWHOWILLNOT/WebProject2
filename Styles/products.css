@@ -1,37 +1,43 @@
 .allProducts {
 	display: flex;
 	color: black;
-	align-items: stretch;
-	justify-content: space-evenly;
 	margin: 3em;
 	text-align: center;
+	flex-direction: column;
 	bottom: 0em;
 }
 .hoodies {
-	flex-basis: auto;
+	display: flex;
+	flex-direction: row;
 	column-gap: 1em;
-	width: 75%;
+	flex-wrap: wrap;
 }
 .jumpers {
+	display: flex;
 	flex-basis: auto;
 	column-gap: 1em;
-	width: 75%;
+	flex-wrap: wrap;
 }
 .tshirts {
+	display: flex;
 	flex-basis: auto;
 	column-gap: 1em;
-	width: 75%;
+	flex-wrap: wrap;
 }
 img {
 	width: 45%;
+	cursor: pointer;
 }
+
 .individualItems {
+	flex-grow: 3;
 	margin: 1.5em;
-	flex-wrap: wrap;
 	justify-content: center;
+	flex-direction: column;
 	border-style: solid;
 	border-color: black;
 	border-width: 00.2em;
+	width: 25%;
 	border: 3px solid rgb(0, 0, 0);
 }
 
@@ -53,5 +59,12 @@ img {
 	border-bottom: 3px solid black;
 }
 .cartButton {
-	background: ;
+	background: rgb(0, 153, 210);
+	color: white;
+	cursor: pointer;
+}
+.break {
+	display: flex;
+	height: 0%;
+	width: 100%;
 }
