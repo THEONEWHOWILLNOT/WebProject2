@@ -1,3 +1,4 @@
+//Placeholders for functions i couldnt add
 function addToCart(){
   alert("add to cart");
 }
@@ -11,6 +12,7 @@ function checkout(){
 
 //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
 
+// Makes dropdown menu visable
 function dropDown(){
     var x = document.getElementById("dropdownFilter");
     if (x.style.display === "none") {
@@ -19,6 +21,8 @@ function dropDown(){
       x.style.display = "none";
     }
   }
+
+  //Shows hoodies 
 function showHoodies(){
   var x = document.getElementById("hoodies");
   var y = document.getElementById("tshirts");
@@ -35,7 +39,8 @@ function showHoodies(){
   
     }
 }
-    
+  
+// Shows t-shirts
 function showTshirts(){
   var x = document.getElementById("tshirts");
   var y = document.getElementById("hoodies");
@@ -52,7 +57,7 @@ function showTshirts(){
     }
   }
     
- 
+ // Shows Jumpers
 function  showJumpers(){
   var x = document.getElementById("jumpers");
   var z = document.getElementById("tshirts");
@@ -67,7 +72,7 @@ function  showJumpers(){
     z.style.display = "none";
   }
 }
-
+//Shows all products 
 function reset(){
   var x = document.getElementById("tshirts");
   var y = document.getElementById("hoodies");

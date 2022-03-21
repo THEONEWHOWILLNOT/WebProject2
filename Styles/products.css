@@ -63,6 +63,8 @@ img {
 	color: white;
 	cursor: pointer;
 }
+
+/* dropdown menu */
 .dropdown {
 	display: flex;
 	justify-content: center;

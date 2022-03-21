@@ -22,7 +22,7 @@
     <nav> <!-- place the navigation links in a <nav> tag for accessibility purposes -->
       
       <ul class="myNav">
-        <li class="navList"><a href="./index.html">Home</a></li> <!-- each list item contains a link (marked by the anchor tag -->
+        <li class="navList"><a href="./index.html">Home</a></li> 
         <li class="navList"><a href="products.html"> Products</a> </li>
         <li class="navList"><a href="cart.html"> Cart</a> </li>	
       </ul>
@@ -35,8 +35,11 @@
     <button onclick="reset()" class="dropbtn"> Reset Filter</button>
     <button onclick="dropDown()" id="dropDownBtn" class="dropbtn">Filter</button>
     <div  class="dropdownFilter" id="dropdownFilter">
+      <!--Filter for hoodies only-->
       <button onclick="showHoodies()"  class="dropbtn">Hoodies</button>
+      <!--Filter for t-shirts only-->
       <button onclick="showTshirts()"  class="dropbtn">t-shirts</button>
+      <!--Filter for jumpers only-->
       <button onclick="showJumpers()"  class="dropbtn">Jumpers</button>
     </div>
   </div>
@@ -48,7 +51,8 @@
 
     <div class="hoodies" id="hoodies">
 
-      <div class="individualItems" id="hoodie_1">
+      <div class="individualItems">
+        
           <p class="Name">UCLan Hoodie</p>
           <p class="color">Blue</p>
           <p class="discription">

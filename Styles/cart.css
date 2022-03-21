@@ -39,8 +39,9 @@
 	flex-direction: column;
 	bottom: 0em;
 }
+
 img {
-	width: 15%;
+	width: 400px;
 }
 
 .Name {
