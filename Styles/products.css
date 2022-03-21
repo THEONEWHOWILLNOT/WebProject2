@@ -68,3 +68,27 @@ img {
 	height: 0%;
 	width: 100%;
 }
+
+.dropdown {
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+}
+.dropbtn {
+	background: rgb(0, 153, 210);
+	color: white;
+	cursor: pointer;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+	background-color: #2980b9;
+}
+.dropdownFilter {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	margin: 1.5em;
+}

@@ -26,11 +26,24 @@
     </nav>
      
   </header>
+  <!--Dropdown Menu-->
+  <!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+  <div class="dropdown">
+    <button onclick="reset()" class="dropbtn"> Reset Filter</button>
+    <button onclick="dropDown()" id="dropDownBtn" class="dropbtn">Filter</button>
+    <div  class="dropdownFilter" id="dropdownFilter">
+      <button onclick="showHoodies()"  class="dropbtn">Hoodies</button>
+      <button onclick="showTshirts()"  class="dropbtn">t-shirts</button>
+      <button onclick="showJumpers()"  class="dropbtn">Jumpers</button>
+    </div>
+  </div>
 
   <!-- The flexible grid (content) -->
   <div class="allProducts">
 
-    <div class="hoodies">
+    <!-- Holds all of the information for Hoodies-->
+
+    <div class="hoodies" id="hoodies">
 
       <div class="individualItems">
           <p class="Name">UCLan Hoodie</p>
@@ -407,8 +420,8 @@
       <button class="cartButton" onclick="addToCart()"> Add to Cart</button>
       </div>
     </div>
-
-    <div class="tshirts">
+    <!-- Holds all of the information for t-shirts-->
+    <div class="tshirts" id="tshirts" >
       <div class="individualItems">
         <p class="Name">UCLan Logo Tshirt</p>
         <p class="color">Blue</p>
@@ -786,8 +799,8 @@
 
       
     </div>
-
-    <div class="jumpers">
+    <!-- Holds all of the information for Jumpers-->
+    <div class="jumpers" id="jumpers">
       <div class="individualItems">
         <p class="Name">UCLan Logo Jumper</p>
         <p class="color">Blue</p>
@@ -1173,7 +1186,8 @@
 
   <nav class="links">
   <h4 class="footerTitle">Links</h4>
-  <ul>
+
+  <ul>  <!--Div for links to usefull information for students-->
     <li><a href="https://portal.uclan.ac.uk/ultra/institution-page">Blackboard</a> </li>
     <li><a href="https://apps.uclan.ac.uk/timetable.html">Timetable</a></li>
     <li><a href="https://www.uclansu.co.uk/"> Student Union</a></li>
@@ -1181,17 +1195,17 @@
   
   </nav>
 
-  <div class="contactInfo">
+  <div class="contactInfo"> <!--My contact information-->
   <h4 class="footerTitle" >Contact Info</h4>
   <ul>
     <li>Email: <a href="mailto:welliott1@uclan.ac.uk">welliott1@uclan.ac.uk</a> </li>
-    <li>Phone Number: <a href="tel:+447703318332">07703318332</a></li>
+    <li>Phone Number: <a href="tel:+447704503854">07704503854</a></li> <!--not my actual number-->
   </ul>
   
   
   </div>
 
-  <div class="uniInfo">
+  <div class="uniInfo"> <!--Information about the uni-->
     <h4 class="footerTitle" >Extra Info</h4>
     <ul>
       <li>Address: <a href="https://goo.gl/maps/XsxEhPRfUXJ4BvPb8">Fylde Rd, Preston PR1 2HE</a> </li>
