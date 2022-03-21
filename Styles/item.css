@@ -1,0 +1,50 @@
+.itemContainer {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.allProducts {
+	display: flex;
+	color: #007fb0;
+	margin: 3em;
+	text-align: center;
+	flex-direction: column;
+	bottom: 0em;
+}
+img {
+	width: 45%;
+}
+
+.individualItems {
+	display: flex;
+	margin: 1.5em;
+	flex-direction: column;
+	align-content: center;
+	border-style: solid;
+	border-color: black;
+	align-items: center;
+	border-width: 00.2em;
+	border: 3px solid rgb(0, 0, 0);
+}
+
+.Name {
+	margin: 0%;
+	border-bottom: 3px solid black;
+}
+.color {
+	margin: 0%;
+	border-bottom: 3px solid black;
+}
+.discription {
+	margin: 0%;
+	border-bottom: 3px solid black;
+}
+.price {
+	margin: 0%;
+	border-bottom: 3px solid black;
+}
+.cartButton {
+	background: rgb(0, 153, 210);
+	color: white;
+	cursor: pointer;
+}

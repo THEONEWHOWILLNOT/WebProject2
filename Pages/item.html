@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="../Styles/general.css" />
-    <link rel="stylesheet" href="../Styles/cart.css">
+    <link rel="stylesheet" href="../Styles/item.css">
     <script src="../Scripts/items.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Item</title>
 
 </head>
 <body>
@@ -18,7 +18,7 @@
       <h1>Student Shop</h1>
     </div>
 
-    <h2 class="title ">Cart</h2>
+    <h2 class="title ">Item</h2>
     <nav> <!-- place the navigation links in a <nav> tag for accessibility purposes -->
       
       <ul class="myNav">
@@ -30,9 +30,25 @@
      
   </header>
 
+
+
+
+
   <!-- The flexible grid (content) -->
-  <div class="cartContainer">
-    <div class="Cart">
+  <div class="itemContainer">
+    <div class="Item">
+
+        <div class="individualItems">
+            <p class="Name">UCLan Hoodie</p>
+            <p class="color">Light Blue</p>
+            <p class="discription">
+            Cotton authentic character and practicality are combined in this comfy  warm and luxury hoodie for students that goes with everything to create casual looks
+            </p>
+            <p class="price">£39.99</p>
+            <img src="../images/hoodies/hoodie (2).jpg" alt=" Picture of  UCLAN hoodie" onclick="largeView()">
+          <br>
+          <button class="cartButton" onclick="addToCart()"> Add to Cart</button>
+            </div>
 
     </div>  
   </div>
