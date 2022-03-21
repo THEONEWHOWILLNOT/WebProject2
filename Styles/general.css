@@ -8,7 +8,6 @@ body {
 }
 /* header */
 header {
-	box-sizing: 0.5em;
 	display: flex;
 	width: 100%;
 	background-color: #be1622;

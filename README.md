@@ -35,6 +35,3 @@ holds a place holder item to give better understanding of what it will look like
 Item Page{
 holds a place holder item larger than normal to give better understanding of what it will look like when user looks at an item
 }
-
-refrances
-Hamburger menu - https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
