@@ -1,9 +1,12 @@
 function addToCart(){
-  alert("add toc cart");
+  alert("add to cart");
 }
 function largeView(){
   window.open('file:///C:/Users/Willi/OneDrive/Documents/Uni/CO1706/Week%201/Website/WebProject2/Pages/item.html')
   
+}
+function checkout(){
+  alert("Thank you for shopping")
 }
 
 //https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp

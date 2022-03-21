@@ -30,10 +30,10 @@ Add to cart button:
 
 }
 Cart Page{
-Empty Div for items chosen by user
+holds a place holder item to give better understanding of what it will look like when user adds an item
 }
 Item Page{
-Empty page for displaying larger picture of chosen item
+holds a place holder item larger than normal to give better understanding of what it will look like when user looks at an item
 }
 
 refrances

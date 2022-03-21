@@ -1,3 +1,61 @@
 .cartContainer {
-	height: 500px;
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	margin: 1em;
+}
+.checkoutButton {
+	background: rgb(0, 153, 210);
+	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
+	margin: 1em;
+}
+.checkoutItems {
+	display: flex;
+	flex-direction: row;
+	height: 25%;
+	border: 3px solid black;
+	width: 80%;
+
+	margin: 1em;
+}
+.checkout {
+	display: flex;
+	justify-content: flex-end;
+	margin: 1em;
+}
+
+.itemContainer {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.allProducts {
+	display: flex;
+	color: #007fb0;
+	margin: 3em;
+	text-align: center;
+	flex-direction: column;
+	bottom: 0em;
+}
+img {
+	width: 15%;
+}
+
+.Name {
+	margin: 0%;
+	border-bottom: 3px solid black;
+}
+.color {
+	margin: 0%;
+	border-bottom: 3px solid black;
+}
+.discription {
+	margin: 0%;
+	border-bottom: 3px solid black;
+}
+.price {
+	margin: 0%;
+	border-bottom: 3px solid black;
 }
